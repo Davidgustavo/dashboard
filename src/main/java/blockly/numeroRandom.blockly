@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly formTarget="" resourceType="JAVA" ruleDescription="numeroRandom" ruleName="numeroRandom" ruleSynchronous="false" ruleTimeout="" ruleType="I">
+  <metadata scale="1" scrollx="488.4" scrolly="-65.10000000000002" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <block colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-350" y="130">
+    <mutation>
+      <arg name="Entidade&lt;app.entity.Pedido&gt;"/>
+    </mutation>
+    <field name="NAME">Random</field>
+    <comment h="80" pinned="false" w="160">numeroRandom</comment>
+    <value name="RETURN">
+      <block colour="#5b67a5" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="W+rW)TiFdjZ8@d+[4}[D" origintype="math_random_int" output="true" tooltip="Retorna um número inteiro entre os dois limites informados, inclusivo." type="math_random_int">
+        <value name="FROM">
+          <shadow colour="#5b67a5" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="Or1I5E/r[|u=p09z_O67" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+        <value name="TO">
+          <shadow colour="#5b67a5" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="4gdn1F3@ORb|wuj!G`9y" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+            <field name="NUM">999999</field>
+          </shadow>
+        </value>
+      </block>
+    </value>
+  </block>
+</blockly>
